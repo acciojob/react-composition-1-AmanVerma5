@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Child=({arr})=>{
-    let [tab,setTab]=useState(null);
+    let [tab,setTab]=useState(0);
     
     function handleClick(i){
         setTab(i)
