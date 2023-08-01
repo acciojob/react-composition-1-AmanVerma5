@@ -1,1 +1,10 @@
-
+.output h1{
+    border-bottom: 1px solid black;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    width: fit-content;
+}
